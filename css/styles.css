@@ -71,10 +71,11 @@ h1 {
     font-size: 20px;
 }
 
-#features .icons {
+.icons {
     color: #ef8172;
     margin: 30px auto 10px auto;
     font-size: 3.5em;
+    transition: 0.5s;
 }
 
 #features .box{
@@ -85,4 +86,11 @@ h1 {
 
 #features .row{
     margin: 0 auto;
+}
+
+#features .icons:hover {
+    color: #ce2020;
+    margin: 30px auto 10px auto;
+    font-size: 3.5em;
+    transition: 0.5s;
 }
